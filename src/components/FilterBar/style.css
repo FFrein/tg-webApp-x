@@ -1,0 +1,20 @@
+.filter-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.filter-btn{
+    display: flex;
+    padding: 14px 24px;
+    background-color: #252933;
+    border-radius: 10px;
+}
+
+.filter-btn-name{
+    color: #FFFFFF;
+}
+
+.filter-btn-img{
+    margin-right: 8px;
+}

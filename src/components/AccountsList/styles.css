@@ -1,0 +1,16 @@
+.account-list{
+    padding: 20px;
+    background-color: #131417;
+    border-radius: 10px 10px 0 0;
+    overflow-y: scroll;
+    max-height: 460px;
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.account-list::-webkit-scrollbar {
+    display: none;
+}

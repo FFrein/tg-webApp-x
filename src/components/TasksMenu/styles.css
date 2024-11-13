@@ -1,0 +1,15 @@
+.tasks-menu__wrapper{
+    box-sizing: content-box;
+    padding: 12px 10px;
+}
+
+.tasks-menu{
+    box-sizing: content-box;
+
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:3px;
+
+}

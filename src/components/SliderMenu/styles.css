@@ -1,0 +1,18 @@
+.slider-menu{
+    display: flex;
+    gap: 4px;
+    overflow-x: scroll;
+    user-select: none;
+}
+
+.slider-menu::-webkit-scrollbar {
+    display: none;
+}
+
+.first-element {
+    margin-left: 20px; 
+}
+
+.last-element{
+    margin-right: 20px; 
+}

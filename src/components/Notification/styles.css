@@ -1,0 +1,28 @@
+.notification{
+    box-sizing:border-box;
+
+    display: flex;
+    
+    width: 365px;
+    height: 60px;
+
+    padding: 18px 16px;
+    margin: auto;
+    margin-bottom: 8px;
+
+    background-color: #1E2129;
+    border-radius: 12px;
+}
+.notification__img{
+    width: 24px;
+    height: 24px;
+
+    margin-right: 12px;
+}
+
+.notification__text{
+    text-align: start;
+    font-size: 10px;
+
+    color: #FFFFFF;
+}

@@ -1,0 +1,39 @@
+.account{
+    display: flex;
+}
+
+.account__text{
+    color: #FFFFFF;
+}
+
+.account__img{
+    margin-right: 12px;
+}
+
+.accounts-amount-block{
+    box-sizing: content-box;
+    
+    padding: 18px 20px;
+    width: 140px;
+    height: 80px;
+
+    margin: 10px 0px 20px 0px;
+
+    border-radius: 10px;
+    background-color: #1A1D24;
+
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.accounts-amount-block__title{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.accounts-amount-block__text{
+    font-size: 13px;
+    color: #5E6066;
+}

@@ -1,0 +1,40 @@
+.navigation{
+    height: 92px;
+    background-color: #0F1014;
+    color: #262833
+}
+
+.nav-buttons{
+    display: flex;
+    flex-direction: row;
+
+    height: 100%;
+
+    max-width: 400px;
+    margin: auto;
+}
+
+.nav-btn{
+    width: 94px;
+    height: 66px;
+
+    margin: auto;
+
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+
+    cursor: pointer;
+}
+
+.nav-btn:hover{
+    opacity: 0.7;
+}
+
+a,
+a:visited{
+    text-decoration: none;
+    color: #262833
+}

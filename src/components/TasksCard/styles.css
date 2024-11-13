@@ -1,0 +1,44 @@
+.card__wrapper{
+}
+
+.card{
+    background-color: #16181E;
+    padding: 20px;
+    border-radius: 14px;
+
+    width: 184px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    cursor: pointer;
+    transition: 100ms ease-in;
+}
+
+.card:active{
+    background-color: #0075FF;
+    transition: 15ms ease-in;
+}
+
+.task-image{
+    width: 22px;
+    height: 22px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.task-name{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.amount-tasks{
+    color: #FFFFFF;
+    font-size: 14px;
+}
