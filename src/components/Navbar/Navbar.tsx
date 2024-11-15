@@ -15,19 +15,19 @@ export const Navbar = ()=>{
                         <p>Home</p>
                     </li>
                 </a>
-                <a href="/accounts">
+                <a href="#/accounts">
                     <li className="nav-btn">
                         <img src={accountsGray}/>
                         <p>Accounts</p>
                     </li>
                 </a>
-                <a href="/tasklist">
+                <a href="#/tasklist">
                     <li className="nav-btn">
                         <img src={taskListGray}/>
                         <p>TaskList</p>
                     </li>
                 </a>
-                <a href="/settings">
+                <a href="#/settings">
                     <li className="nav-btn" >
                         <img src={settingsGray}/>
                         <p>Settings</p>

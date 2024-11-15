@@ -53,13 +53,12 @@ export const SliderMenu = () => {
         onMouseUp={onMouseUp}
         onMouseMove={onMouseMove}
       >
-        <SliderCard className="first-element" numbers={1} img={changerTask} title={"DeathMatch"} subtitle={"New safe mode for farming cases"} background={"1"}/>
-        <SliderCard className={""} numbers={1} img={changerTask} title={"DeathMatch"} subtitle={"New safe mode for farming cases"} background={"1"}/>
-        <SliderCard className={""} numbers={1} img={changerTask} title={"DeathMatch"} subtitle={"New safe mode for farming cases"} background={"1"}/>
-        <SliderCard className={""} numbers={1} img={changerTask} title={"DeathMatch"} subtitle={"New safe mode for farming cases"} background={"1"}/>
-        <SliderCard className={""} numbers={1} img={changerTask} title={"DeathMatch"} subtitle={"New safe mode for farming cases"} background={"1"}/>
-        <SliderCard className={""} numbers={1} img={changerTask} title={"DeathMatch"} subtitle={"New safe mode for farming cases"} background={"1"}/>
-        <SliderCard className="last-element" numbers={1} img={changerTask} title={"DeathMatch"} subtitle={"New safe mode for farming cases"} background={"1"}/>
+        <SliderCard link="dm" className="first-element" numbers={1} img={changerTask} title={"DeathMatch"} subtitle={"New safe mode for farming cases"} background={"1"}/>
+        <SliderCard link="generator/Settings" className={""} numbers={1} img={changerTask} title={"Generator"} subtitle={"New safe mode for farming cases"} background={"1"}/>
+        <SliderCard link="changer" className={""} numbers={1} img={changerTask} title={"Changer"} subtitle={"New safe mode for farming cases"} background={"1"}/>
+        <SliderCard link="tf2" className={""} numbers={1} img={changerTask} title={"TF2"} subtitle={"New safe mode for farming cases"} background={"1"}/>
+        <SliderCard link="looter" className={""} numbers={1} img={changerTask} title={"Looter"} subtitle={"New safe mode for farming cases"} background={"1"}/>
+        <SliderCard link="active" className={""} numbers={1} img={changerTask} title={"Active Task"} subtitle={"New safe mode for farming cases"} background={"1"}/>
       </div>
     );
   };

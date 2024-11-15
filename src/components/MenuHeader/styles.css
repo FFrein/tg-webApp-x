@@ -1,0 +1,29 @@
+
+.menu-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 10px 20px;
+}
+
+.menu-header__data{
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.menu-header__text{
+    margin-left: 10px;
+}
+
+.menu-header__invactive{
+    color: #414457;
+    background-color: #12151A;
+    padding: 12px 20px;
+    border-radius: 50px;
+}
+
+.menu-header__img{
+    width: 26px;
+    height: 26px;
+}

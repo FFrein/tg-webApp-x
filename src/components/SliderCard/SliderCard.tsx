@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 import "./styles.css"
 
-export const SliderCard : React.FC<{ numbers:number, img:string, title:string, subtitle:string, background:string, className:string }> = ({ numbers, img, title, subtitle, background, className }) => {
+export const SliderCard : React.FC<{ link:string, numbers:number, img:string, title:string, subtitle:string, background:string, className:string }> = ({ link, numbers, img, title, subtitle, background, className }) => {
     return (
         <div 
             className={`slider-card__wrapper ${className}` }
@@ -11,11 +12,13 @@ export const SliderCard : React.FC<{ numbers:number, img:string, title:string, s
                     <p className="machines-count">{numbers}/16</p>
                 </div>
 
-                <div className="info-block">
-                    <img src={img} className="card-image" />
-                    <h4 className="info-block__title">{title}</h4>
-                    <p className="info-block__subtitle">{subtitle}</p>
-                </div>
+                <Link to={link}>
+                    <div className="info-block">
+                        <img src={img} className="card-image" />
+                        <h4 className="info-block__title">{title}</h4>
+                        <p className="info-block__subtitle">{subtitle}</p>
+                    </div>
+                </Link>
             </div>
         </div>
     );

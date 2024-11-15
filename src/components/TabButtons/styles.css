@@ -1,0 +1,16 @@
+.tab-buttons{
+    display: flex;
+    margin: 10px;
+}
+
+.tab-btn{
+    color: #252933;
+    padding: 11px 24px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.tab-btn.active{
+    color: #FFFFFF;
+    background-color: #1A1D24;
+}

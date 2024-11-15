@@ -1,0 +1,8 @@
+.menu__top-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    background-color: #111214;
+    padding: 10px;
+    border-radius: 0px 0px 14px 14px;
+}

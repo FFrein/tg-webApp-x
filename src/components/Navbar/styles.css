@@ -1,40 +1,40 @@
-.navigation{
-    height: 92px;
-    background-color: #0F1014;
-    color: #262833
+.navigation {
+    position: fixed;    /* Закрепляем панель навигации */
+    bottom: 0;          /* Прикрепляем её к нижней части экрана */
+    left: 0;            /* Прикрепляем её к левой части экрана */
+    width: 100%;        /* Панель будет занимать всю ширину экрана */
+    height: 92px;       /* Высота панели */
+    color: #262833;
+    z-index: 1000;      /* Убедитесь, что панель находится поверх контента */
 }
 
-.nav-buttons{
+.nav-buttons {
+    background-color: #0F1014;
     display: flex;
     flex-direction: row;
-
-    height: 100%;
-
+    height: 100%;       /* Растягиваем кнопки на всю высоту панели */
     max-width: 400px;
-    margin: auto;
+    margin: auto;       /* Центрируем кнопки по горизонтали */
 }
 
-.nav-btn{
+.nav-btn {
+    padding-top: 10px;
     width: 94px;
     height: 66px;
-
     margin: auto;
-
     justify-content: center;
     align-items: center;
-
     display: flex;
     flex-direction: column;
-
     cursor: pointer;
 }
 
-.nav-btn:hover{
+.nav-btn:hover {
     opacity: 0.7;
 }
 
 a,
-a:visited{
+a:visited {
     text-decoration: none;
-    color: #262833
+    color: #262833;
 }

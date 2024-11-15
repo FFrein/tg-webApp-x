@@ -1,0 +1,51 @@
+.generator-top-button{
+    box-sizing:border-box;
+
+    background-color: #1A1D24;
+    border-radius: 10px;
+
+    padding: 12px;
+
+    width: 184px;
+    height: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.generator-top-button__row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.generator-top-button__amount{
+    display: flex;
+    opacity: 0.2;
+    align-items: flex-start;
+}
+
+.generator-top-button__arrow-left{
+    width: 6px;
+    height: 12px;
+    margin-left: 4px;
+}
+
+.generator-top-button__amount-num{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: -4px;
+    width: 10px;
+    height: 10px;
+}
+
+.generator-top-button__name{
+    display: flex;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.generator-top-button__button-img{
+    width: 22px;
+    height: 22px;
+}

@@ -13,7 +13,6 @@ export const Main : React.FC<{}> = ()=>{
         <Notification classname={null}/>
         <SliderMenu/>
         <TasksMenu/>
-        <Navbar/>
     </>
     )
 }

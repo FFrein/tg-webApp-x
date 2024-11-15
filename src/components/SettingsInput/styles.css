@@ -1,0 +1,20 @@
+.input-section{
+    display: flex;
+}
+
+.input-section__img{
+    margin-right: 13px;
+}
+
+input,
+input:focus
+{
+	font-size: 14px;
+	padding: 6px 0 4px 0px;
+	border: 1px solid #cecece00;
+	background: #f6f6f600;
+	border-radius: 8px;
+    color: #FFFFFF;
+    outline: none;
+    background-color: #0e0f1100;
+}

@@ -1,0 +1,29 @@
+
+.play-button{
+    position: fixed;
+
+    bottom: 0;
+
+    width: 353px;
+    height: 60px;
+
+    background-color: #3A53FF;
+    border-radius: 14px;
+    margin: 0 20px 107px 20px;
+
+    cursor: pointer;
+
+    opacity: 1;
+}
+
+.play-button:hover{
+    opacity: 0.8;
+}
+
+.play-button:active{
+    opacity: 0.7;
+}
+
+.play-img{
+    margin-top: 19px;
+}
