@@ -1,0 +1,10 @@
+.proxy-item{
+    display: flex;
+    text-align: start;
+    color: #FFFFFF  ;
+    align-items: center;
+}
+
+.proxy-item__flag{
+    margin-right: 10px;
+}

@@ -5,21 +5,25 @@ export const SliderCard : React.FC<{ link:string, numbers:number, img:string, ti
     return (
         <div 
             className={`slider-card__wrapper ${className}` }
-            style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+            style={{
+                backgroundImage: `url(${background})`, 
+                backgroundSize: 'cover', 
+                backgroundPosition: 'center' 
+            }}
         >
-            <div className="slider-card">
-                <div className="machines">
-                    <p className="machines-count">{numbers}/16</p>
-                </div>
+            <Link to={link}>
+                <div className="slider-card">
+                    <div className="machines">
+                        <p className="machines-count">{numbers}/16</p>
+                    </div>
 
-                <Link to={link}>
                     <div className="info-block">
                         <img src={img} className="card-image" />
                         <h4 className="info-block__title">{title}</h4>
                         <p className="info-block__subtitle">{subtitle}</p>
-                    </div>
-                </Link>
-            </div>
+                    </div>    
+                </div>
+            </Link>
         </div>
     );
 };

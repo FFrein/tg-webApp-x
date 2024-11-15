@@ -7,8 +7,8 @@ import { MenuTopButton } from '../MenuTopButton/MenuTopButton'
 export const MenuTopButtons : React.FC<{}> = ()=>{
     return(
         <div className='menu__top-buttons'>
-            <MenuTopButton name={'123'} img={proxy} amount={'0'}/>
-            <MenuTopButton name={'123'} img={mail} amount={'0'}/>
+            <MenuTopButton name={'123'} img={proxy} amount={'0'} href="/tasklist/Proxy"/>
+            <MenuTopButton name={'123'} img={mail} amount={'0'} href="/tasklist/Proxy"/>
         </div>
     )
 }

@@ -5,6 +5,7 @@
     overflow-y: scroll;
     max-height: 460px;
 
+    margin: 0 10px 0 10px;
 
     display: flex;
     flex-direction: column;

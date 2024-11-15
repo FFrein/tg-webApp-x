@@ -1,0 +1,6 @@
+.main-item{
+    display: flex;
+    text-align: start;
+    color: #FFFFFF  ;
+    align-items: center;
+}

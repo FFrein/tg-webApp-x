@@ -3,6 +3,7 @@ import "./style.css"
 import clockTimeFiveOutline from '../../assets/ico/clock-time-five-outline.svg'
 import filter from '../../assets/ico/filter.svg'
 import formatListChecks from '../../assets/ico/format-list-checks.svg'
+import { DropDownFilter } from "../DropDownFilter/DropDownFilter"
 
 export const FilterBar = ()=>{
     return(
@@ -19,14 +20,9 @@ export const FilterBar = ()=>{
 
             <div className="filter-btn">
                 <img className="filter-btn-img" src={clockTimeFiveOutline} alt="img"/>
-                <select name="filter" id="filter">
-                    <option value="new">new</option>
-                    <option value="old">old</option>
-                    <option value="money-asc">money up</option>
-                    <option value="money-dsc">money down</option>
-                    <option value="bans">bans</option>
-                </select>
+                <DropDownFilter/>
             </div>
+
         </div>
     )
 }

@@ -11,13 +11,13 @@
 }
 
 .accounts-amount-block{
-    box-sizing: content-box;
+    box-sizing: border-box;
     
     padding: 18px 20px;
     width: 140px;
     height: 80px;
 
-    margin: 10px 0px 20px 0px;
+    margin: 10px 0px 20px 10px;
 
     border-radius: 10px;
     background-color: #1A1D24;

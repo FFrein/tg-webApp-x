@@ -34,7 +34,7 @@ function App() {
             <Route path="/changer/*" element={<Changer/>}/>
             <Route path="/looter/*" element={<Looter/>}/>
             <Route path="/tf2/*" element={<TF2/>}/>
-            
+
             <Route path="*" element={<Main/>}/>
         </Routes>
       </Router>

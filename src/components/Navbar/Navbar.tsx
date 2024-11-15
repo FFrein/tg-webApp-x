@@ -9,7 +9,7 @@ export const Navbar = ()=>{
     return(
         <nav className="navigation">
             <ul className="nav-buttons">
-                <a href="/">
+                <a href="#/">
                     <li className="nav-btn">
                         <img src={homeGray}/>
                         <p>Home</p>
@@ -21,7 +21,7 @@ export const Navbar = ()=>{
                         <p>Accounts</p>
                     </li>
                 </a>
-                <a href="#/tasklist">
+                <a href="#/tasklist/Proxy">
                     <li className="nav-btn">
                         <img src={taskListGray}/>
                         <p>TaskList</p>

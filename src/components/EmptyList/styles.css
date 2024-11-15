@@ -1,0 +1,30 @@
+.empty-list{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    padding: 20px;
+    width: 373px;
+    height: 202px;
+    border-radius: 10px;
+    background-color: #131417;
+}
+
+.empty-list__text{
+    margin: auto auto 0px auto;
+
+    width: 174px;
+    color: #FFFFFF;
+}
+
+.empty-list__img1,
+.empty-list__img2{
+  width: 104px;
+  height: 32px;  
+}
+.empty-list__img1{
+  margin-bottom: 28px;
+}
+
+.empty-list__img2{
+  opacity: 0.3;
+}

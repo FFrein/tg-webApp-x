@@ -7,20 +7,23 @@ import server from '../../assets/ico/server.svg'
 import ticket from '../../assets/ico/ticket.svg'
 
 import './styles.css'
+import { Route, Routes } from 'react-router-dom';
+import { AccountsList } from '../../components/AccountsList/AccountsList';
+import { TF2Settings } from '../TF2Settings/TF2Settings';
 
 
 export const TF2 = ()=>{
     return(
         <div>
             <MenuHeader/>
-            <TabButtons tabs={[]} active={0}/>
+            <TabButtons tabs={["Settings","Accounts"]} active={0}/>
+
+            <Routes>
+                <Route path="/Settings" element={<TF2Settings/>} />
+                <Route path="/Accounts" element={<AccountsList/>} />
+            </Routes>
+
             <PlayButton/>
-            <div className='menu__form'>
-                <SettingsInput img={server} placeholder={"Threads"}/>
-            </div>
-            <div className='menu__form'>
-                <SettingsInput img={ticket} placeholder={"Buying Tour of Duty Ticket (~1$)"}/>
-            </div>
         </div>
     );
 }

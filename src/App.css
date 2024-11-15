@@ -8,13 +8,25 @@
   margin-bottom: 100px;
 }
 
-@media (max-width:391px) {
+@media (max-width:399px) {
   .app__wrapper{
     zoom: 0.9
   }
 }
 
 .menu__form{
+  background-color: #131417;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 10px 10px 10px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 32px;
+}
+
+.list{
   background-color: #131417;
   padding: 20px;
   border-radius: 10px;
