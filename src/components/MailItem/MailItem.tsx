@@ -1,6 +1,6 @@
 import "./styles.css"
 
-export const MailItem : React.FC<{img:string, address:string, error:boolean}> = ({img, address, error})=>{
+export const MailItem : React.FC<{address:string, error:boolean}> = ({address, error})=>{
 
     return (
     <div className="main-item">
