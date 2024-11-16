@@ -9,12 +9,12 @@ import { useState } from "react"
 
 export const TaskList = ()=>{
 
-    const [proxy,setProsy] = useState([{address:'192.292.421', image:flag},{address:'192.292.421', image:flag},{address:'192.292.421', image:flag},{address:'192.292.421', image:flag},{address:'192.292.421', image:flag},{address:'192.292.421', image:flag}])
+    const [proxy] = useState([{address:'192.292.421', image:flag},{address:'192.292.421', image:flag},{address:'192.292.421', image:flag},{address:'192.292.421', image:flag},{address:'192.292.421', image:flag},{address:'192.292.421', image:flag}])
 
     return(
         <>
         <MenuHeader/>
-        <TabButtons tabs={["Proxy (10)", "Mail (254)"]} active={0}/>
+        <TabButtons tabs={["Proxy (10)", "Mail (254)"]}/>
             <Routes>
                 <Route path="Proxy" element={<ProxyList proxy={proxy}/>}/>
                 <Route path="Mail" element={<MailList mails={["asdasdasd@mail.ru"]} error={0}/>}/>

@@ -15,7 +15,7 @@ export const Generator : React.FC<{}> = ()=>{
 
             <MenuTopButtons/>
 
-            <TabButtons tabs={["Settings","Log list"]} active={0}/>
+            <TabButtons tabs={["Settings","Log list"]}/>
 
             <Routes>
                 <Route path="/Settings" element={<GeneratorSettings />} />

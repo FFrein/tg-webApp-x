@@ -13,7 +13,7 @@ export const Looter : React.FC<{}> = ()=>{
         <div className='changer'>
             <MenuHeader/>
             <MenuTopButtons/>
-            <TabButtons tabs={["Settings","Accounts"]} active={0} />
+            <TabButtons tabs={["Settings","Accounts"]} />
             <Routes>
                 <Route path="/Settings" element={<LooterSettings/>} />
                 <Route path="/Accounts" element={<AccountsList/>} />

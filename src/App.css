@@ -1,3 +1,10 @@
+*{
+  user-select: none;
+  outline: none; 
+  -webkit-tap-highlight-color: transparent; 
+  -webkit-touch-callout: none; 
+}
+
 #root {
   max-width: 393px;
   margin: 0 auto;

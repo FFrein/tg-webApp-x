@@ -1,7 +1,7 @@
 .empty-list{
     display: flex;
     flex-direction: column;
-    margin: 0 10px;
+    margin: 0 auto;
     padding: 20px;
     width: 373px;
     height: 202px;
@@ -11,7 +11,6 @@
 
 .empty-list__text{
     margin: auto auto 0px auto;
-
     width: 174px;
     color: #FFFFFF;
 }

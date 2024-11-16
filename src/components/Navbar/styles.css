@@ -9,21 +9,21 @@
 }
 
 .nav-buttons {
+    padding: 10px 42px 0 42px;
     background-color: #0F1014;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     height: 100%;       /* Растягиваем кнопки на всю высоту панели */
     max-width: 400px;
     margin: auto;       /* Центрируем кнопки по горизонтали */
 }
 
 .nav-btn {
-    padding-top: 10px;
-    width: 94px;
     height: 66px;
     margin: auto;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     display: flex;
     flex-direction: column;
     cursor: pointer;
@@ -37,4 +37,12 @@ a,
 a:visited {
     text-decoration: none;
     color: #262833;
+}
+
+.blue{
+    color: #3971FA;
+}
+
+.btn-text{
+    font-size: 10px;
 }

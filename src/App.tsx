@@ -37,9 +37,8 @@ function App() {
 
             <Route path="*" element={<Main/>}/>
         </Routes>
+        <Navbar/>
       </Router>
-      
-      <Navbar/>
     </div>
   )
 }

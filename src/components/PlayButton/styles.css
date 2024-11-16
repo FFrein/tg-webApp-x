@@ -27,3 +27,9 @@
 .play-img{
     margin-top: 19px;
 }
+
+@media (max-width:399px) {
+    .play-button{
+        width: 90%;
+    }
+}

@@ -14,7 +14,7 @@ export const Changer = ()=>{
         <div className='changer'>
             <MenuHeader/>
             <MenuTopButtons/>
-            <TabButtons tabs={["Settings","Accounts"]} active={0}/>
+            <TabButtons tabs={["Settings","Accounts"]}/>
 
 
             <Routes>

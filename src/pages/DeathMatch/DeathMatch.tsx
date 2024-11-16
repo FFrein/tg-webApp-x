@@ -11,7 +11,7 @@ export const DeathMatch = ()=>{
     return(
         <div className='death-match'>
             <MenuHeader/>
-            <TabButtons tabs={["Virtual machines","Accounts"]} active={0}/>
+            <TabButtons tabs={["Virtual machines","Accounts"]}/>
             <PlayButton/>
 
             <Routes>
